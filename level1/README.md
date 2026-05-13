@@ -13,7 +13,7 @@ Decompile the target APK and find out where the input string is being compared t
 
 ## Binary Patching
 - Decoded the uncrackable APK that resulted in a directory containing smali code.
-- Modified smali code to obtain byte array containing decrypted text and stored in string to log.
+- Modified smali code to obtain byte array containing decrypted text and stored in string object to log.
 - Rebuilt APK using apktool. Signed the APK using apksigner.
 - Uninstalled crackme application from Android emulator.
 - Used the adb or Android Debug Bridge to install the built APK to the Android emulator device.
