@@ -39,3 +39,7 @@ owasp-crackmes/
 │   ├── README.md
 │   ├── screenshots/
 │   └── scripts/
+```
+---
+## Original challenge source
+- [OWASP MSTG Crackmes Repository](https://mas.owasp.org/crackmes/)
