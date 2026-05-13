@@ -25,6 +25,7 @@ Decompile the target APK and find out where the input string is being compared t
 <img src="screenshots/static-crack.png" width="700">
 <img src="screenshots/decryption-method-aes.png" width="700">
 <img src="screenshots/logcat_log_uncrackable1.png" width="700">
+<img src="screenshots/level1-emulator.png" width="300">
 
 
 ## Key Takeaways
