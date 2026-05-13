@@ -7,7 +7,7 @@ Simple Android application that displays a text input field and a submit button.
 Decompile the target APK and find out where the input string is being compared to the real string.
  
 ## Static Analysis
-- Found that the uncrackable string was encrypted using AES encryption.
+- After decompiling the code with JADX and analyzing the generated source code, I found that the uncrackable string was encrypted using AES encryption.
 - I used a python script to decrypt the cipher text given the symmetric key.
 - Found that the uncrackable text was “I want to believe”
 
