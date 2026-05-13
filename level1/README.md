@@ -21,6 +21,11 @@ Decompile the target APK and find out where the input string is being compared t
 - The correct input string was logged once the submit button handler was triggered.
 
 ## Screenshots
+<img src="screenshots/android-uncrackable-1.png" width="700">
+<img src="screenshots/static-crack.png" width="700">
+<img src="screenshots/decryption-method-aes.png" width="700">
+<img src="screenshots/logcat_log_uncrackable1.png" width="700">
+
 
 ## Key Takeaways
 I learned that using a decompiler tool like JADX is useful to scope out potential points of interest to solve crackmes. Also, there are many ways to solve a crackme with methods such as binary patching.
