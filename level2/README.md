@@ -14,9 +14,9 @@ Open the application and analyze behavior when running on Android emulator.
 - Entering the correct password seemed to be failing when clicking the verify button on the GUI. There was a value being set in the JNI code we bypassed that was being used in the other JNI method. The other JNI method used this value in a conditional to check the input value vs hardcoded correct value. I wrote logic in the existing Frida script to bypass the check method.    
 
 ## Screenshots
-<img src="screenshots/level2-crash-start-up.png" width="700">
-<img src="screenshots/level2-secret-ghidra.png" width="700">
-<img src="screenshots/level2-success-emulator.png" width="700">
+<img src="screenshots/level2-crash-startup.png" width="700">
+<img src="screenshots/level2-secret-ghidra.png" width="500">
+<img src="screenshots/level2-success-emulator.png" width="250">
 
 
 ## Key Takeaways
