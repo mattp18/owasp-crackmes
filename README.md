@@ -20,6 +20,7 @@ Each challenge includes analysis, exploitation approach, and supporting notes/sc
 | Challenge | Description | Key Techniques |
 |-----------|-------------|----------------|
 | Level 1   | Input validation bypass | Static analysis, String comparison, Binary patching |
+| Level 2   | Android JNI + Anti-debug bypass | JNI reverse engineering, ptrace/fork anti-debugging analysis, Frida runtime hooking |
 
 > Each folder contains a full breakdown with screenshots, explanations, and any scripts used.
 
